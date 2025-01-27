@@ -1,0 +1,226 @@
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
+
+body {
+  font-family: Roboto, Poppins, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+main{
+margin: 30px 0px;
+}
+h1{
+  margin: 10px auto;
+}
+/* STYLE PAGE ACCEUIL */
+.hero {
+  height: 1000px;
+  width: 100%;
+  background-image: url("../images/fond7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.h1-container{
+  max-width: 80%;
+  padding: 10px;
+  margin: 20px auto;
+
+}
+#typed-text {
+  background-color: rgba(239, 231, 231, 0.127);
+  filter: drop-shadow(0 0 5px #f5f2f2);
+  color: black;
+  font-size: 45px;
+  border-radius: 20px;
+}
+/* --------------------------------------- */
+/* ABOUT */
+.main-about{
+  width: 100%;
+  background-image: url("../images/fond6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-about{
+  margin: 20px auto;
+  padding: 5px;
+  background-color: rgba(211, 211, 211, 0.214);
+  
+}
+.card-about {
+  width: 300px;
+  padding: 5px;
+    padding: 5px;
+  margin: 20px auto;
+}
+
+.card-about img{
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+  filter: drop-shadow(0 0 5px #0e0d0d);
+}
+.card-about h2 {
+  font-size: 25px;
+}
+.card-about p{
+  font-size: 15px;
+}
+
+.about-content {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  filter: drop-shadow(0 0 5px #0e0d0d);
+}
+.about-content-card{
+  padding: 5px;
+}
+.important {
+  font-weight: bolder;
+}
+.p-about{
+  margin: 10px 10px;
+}
+/* ----------------------- */
+/* Compétences */
+.main-skills{
+  background-color:rgba(211, 211, 211, 0.347);
+  padding: 10px;
+}
+.main-skills h1{
+  margin: 20px auto;
+}
+.accordion{
+  margin: 20px auto;
+  max-width: 90%;
+  filter: drop-shadow(0 0 5px #0e0d0d);
+}
+.accordion-header button{
+  color: black;
+  font-weight: bolder;
+}
+.cv{
+  margin: 10px auto;
+}
+/* -------------------------- */
+/* EXPERIENCES */
+.main-exp{
+  background-color:rgba(211, 211, 211, 0.347);
+padding: 10px;
+}
+.exp{
+  margin: 20px auto;
+  filter: drop-shadow(0 0 2px #0e0d0d);
+}
+
+/* --------------- */
+/* Formations */
+.main-parcours{
+  background-color:rgba(211, 211, 211, 0.114);
+padding: 10px;
+}
+.table-responsive{
+  max-width: 90%;
+  margin: 10px auto;
+  filter: drop-shadow(0 0 2px #beb9b9);
+}
+
+/* --------------------------- */
+/* PROJETS */
+.projets {
+  padding: 10px;
+  background-image: url('../images/fond3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.projets h1{
+  background-color: rgba(240, 248, 255, 0.676);
+  border-radius: 15px;
+}
+
+/* ------------ */
+/* centres d'interets */
+.interests {
+  padding: 20px;
+  background-image: url('../images/plage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.interest-card {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.interest-card i {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.interest-card h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ////////////////////////// */
+
+/* CONTACT */
+.contact {
+  background-image: url('../images/bureau.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact-info-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.contact-info-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.contact-info-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.contact-info-card img {
+  width: 20px;
+  margin-right: 10px;
+}
+.form{
+  margin: auto;
+}
+iframe{
+  max-width: 100%;
+}
+/* media query */
+/* Media Query pour les écrans de taille moyenne */
+@media screen and (max-width: 768px) {
+  .col-6 {
+    width: 90%;
+  }
+}

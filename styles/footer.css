@@ -1,0 +1,27 @@
+/* Footer */
+/* Styliser les icônes sociales */
+footer {
+  height: 150px;
+    width: 100%; /* Prendre toute la largeur */
+  background-color: #333; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  padding: 20px ; /* Ajouter du padding en haut et en bas */
+}  
+  /* Styles pour les icônes sociales */
+.social-icons {
+  display: flex; /* Utiliser Flexbox pour aligner les icônes */
+  justify-content: center; /* Centrer les icônes */
+  gap: 10px; /* Espacement entre les icônes */
+  margin: 10px auto; /* Ajouter un peu d'espace en bas */
+}
+ 
+  .social-icons a img {
+    max-width: 30px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .copy{
+    margin: 10px auto;
+    padding: 10px;
+  }
